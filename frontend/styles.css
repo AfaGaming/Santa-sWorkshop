@@ -1,0 +1,93 @@
+/* Updated styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+  }
+  
+  .branding {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Pushes the branding to the left */
+  }
+  
+  .logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .brand-title {
+    font-family: 'Segoe Script', cursive; /* Apply a handwritten-like font */
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .tabs {
+    margin-left: auto; /* Pushes the tabs to the right */
+  }
+  
+  .tabs button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px; /* Adjust the space between buttons */
+  }
+  
+  .tabs button:hover {
+    background-color: #ccc;
+  }
+
+  /* Updated styles.css */
+/* ... (existing styles) */
+
+.countdown {
+    text-align: center;
+    background-color: #f9f9f9; /* Background color for the countdown section */
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .countdown h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  #countdown-timer {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'cursive', cursive;
+    color: #d9534f;
+    margin: 20px 0;
+  }
+  
+  .budget {
+    text-align: center;
+    background-color: #e0e0e0; /* Background color for the budget section */
+    padding: 20px;
+  }
+  
+  .budget h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  #total-money {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-top: 10px;
+  }
+  

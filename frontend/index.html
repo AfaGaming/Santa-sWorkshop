@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Santa's Workshop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar with Branding and Tabs -->
+    <div class="navbar">
+      <div class="branding">
+        <img src="santas_logo.png" alt="Santa's Logo" class="logo" />
+        <h1 class="brand-title">Santa's Workshop</h1>
+      </div>
+      <div class="tabs">
+        <button onclick="openTab('home')">Home</button>
+        <button onclick="openTab('kids')">Kids & Elves</button>
+        <button onclick="openTab('gifts')">Gifts</button>
+        <button onclick="openTab('lists')">Lists</button>
+      </div>
+    </div>
+
+    <!-- Home Tab Content -->
+<div id="home" class="tabcontent">
+  <div class="countdown">
+    <h2>Christmas is in</h2>
+    <p id="countdown-timer"></p>
+  </div>
+  <div class="budget">
+    <h2>Total Money Available</h2>
+    <p id="total-money">$500</p> <!-- Replace with your total available budget -->
+  </div>
+</div>
+</div>
+
+
+
+
+    <!-- Kids & Elves Tab Content -->
+    <div id="kids" class="tabcontent" style="display: none">
+      <h2>Kids & Elves</h2>
+      <!-- Content for the Kids & Elves tab -->
+    </div>
+
+    <!-- Gifts Tab Content -->
+    <div id="gifts" class="tabcontent" style="display: none">
+      <h2>Gifts</h2>
+      <!-- Content for the Gifts tab -->
+    </div>
+
+    <!-- Lists Tab Content -->
+    <div id="lists" class="tabcontent" style="display: none">
+      <h2>Lists</h2>
+      <!-- Content for the Lists tab -->
+    </div>
+
+    <!-- Rest of the tabs -->
+    <!-- ... (keep the other tabs' content as previously structured) -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
